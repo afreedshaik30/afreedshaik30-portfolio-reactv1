@@ -1,7 +1,7 @@
 import Image from "react-bootstrap/Image";
 
 import ViewMyWorkBtn from "./ViewMyWorkBtn";
-import HeroPic from "../assets/img/heropic.jpg";
+import HeroPic from "../assets/img/heropic.webp";
 
 function Header() {
   return (
