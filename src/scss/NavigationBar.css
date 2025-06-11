@@ -1,0 +1,7 @@
+.navbar-collapse .nav-link {
+  color: white !important; /* White text for the links */
+}
+
+.navbar-collapse .nav-link:hover {
+  color: #7fff00 !important; /* Set hover color to a greenish shade (optional) */
+}
