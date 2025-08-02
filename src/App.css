@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Bootstrap CDN import (optional if used in HTML or index.js) */
+/* Or import in React entry: import 'bootstrap/dist/css/bootstrap.min.css' */
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+
+.App h1,
+.App h2,
+.App .navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.App h1 {
+  font-size: 7rem;
+}
+
+@media (max-width: 1200px) {
+  .App h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .App h1 {
+    font-size: 4rem;
+  }
+}
+
+.App h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 1200px) {
+  .App h2 {
+    font-size: 4rem;
+  }
+}
+
+.App h3 {
+  font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .App h3 {
+    font-size: 2rem;
+  }
+}
+
+.App .card {
+  overflow-x: hidden;
+}
+
+.App .card .card-img-top {
+  transition: all 0.3s;
+}
+
+.App .card .card-img-top:hover {
+  cursor: pointer;
+  scale: 1.1;
+  opacity: 0.75;
+  transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+  .custom-gap {
+    gap: 360px !important;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .custom-gap {
+    gap: 10px !important;
+  }
+}

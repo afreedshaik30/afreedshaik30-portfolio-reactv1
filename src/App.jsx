@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css"; // bootstrap styles
 
 import NavigationBar from "./components/NavigationBar";
 import HomePage from "./components/HomePage";

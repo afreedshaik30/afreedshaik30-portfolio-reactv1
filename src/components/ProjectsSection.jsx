@@ -5,8 +5,9 @@ function ProjectsSection() {
   return (
     <div className="py-5" id="projects">
       <div className="container">
-        <h2 className="mt-3 mb-5">My projects</h2>
-        <div className="row g-4">
+        <h2 className="mt-3 mb-5 text-center">My Projects</h2>
+
+        <div className="d-flex flex-column gap-4">
           {ProjectsItems.map((project) => (
             <ProjectCard
               key={project.id}

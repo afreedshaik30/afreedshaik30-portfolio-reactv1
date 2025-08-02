@@ -153,10 +153,11 @@ const SkillsSection = () => {
                   className="p-4 rounded-4 h-100"
                   style={{
                     background: "white",
-                    border: isHovered ? "6px solid #7fff00" : "4px solid gray",
-                    transform: isHovered ? "translateY(-6px)" : "none",
+                    minHeight: "100px",
+                    border: isHovered ? "5px solid #7fff00" : "3px solid gray",
+                    transform: isHovered ? "translateY(-4px)" : "none",
                     boxShadow: isHovered
-                      ? "0 10px 20px rgba(0, 0, 0, 0.1)"
+                      ? "0 8px 16px rgba(0, 0, 0, 0.1)"
                       : "none",
                     transition:
                       "transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease",
